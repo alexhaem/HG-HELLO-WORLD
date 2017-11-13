@@ -1,0 +1,7 @@
+<span class="glyphicon" [class.glyphicon-star]="IsSelected" [class.glyphicon-star-empty]="!IsSelected" (click)="onClick()">
+</span>
+
+<div class="group-control">
+  <input type="text" class="form-control" [(ngModel)]="title">
+  <span>{{ title | titleCase }}</span>
+</div>
