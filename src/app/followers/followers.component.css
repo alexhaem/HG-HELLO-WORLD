@@ -1,0 +1,9 @@
+.avatar {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+}
+
+.media-heading {
+    font-weight: bold;
+}
